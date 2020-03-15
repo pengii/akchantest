@@ -9,11 +9,11 @@ using akchantest.Models;
 
 namespace akchantest.Controllers
 {
-    public class HomeController : Controller
+    public class ArmadaController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<ArmadaController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public ArmadaController(ILogger<ArmadaController> logger)
         {
             _logger = logger;
         }

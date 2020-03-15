@@ -34,7 +34,7 @@ namespace akchantest
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Armada/Error");
             }
             app.UseStaticFiles();
 
@@ -46,7 +46,7 @@ namespace akchantest
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Armada}/{action=Index}/{id?}");
             });
         }
     }
